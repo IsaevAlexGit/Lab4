@@ -30,6 +30,9 @@ int main() {
 
 	string depDate, dstPoint;
 	cout << "Введите дату отправления и пункт назначения рейса через пробел: ";
+	cout << "Введите дату отправления и пункт назначения рейса через пробел: ";
+	cout << "Введите дату отправления и пункт назначения рейса через пробел: ";
+
 	cin >> depDate >> dstPoint;
 
 	fs.printInfoForDepDate(depDate, dstPoint);
