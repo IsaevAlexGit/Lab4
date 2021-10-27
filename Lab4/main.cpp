@@ -10,7 +10,7 @@ int main() {
 	FlightSchedule fs;
 
 	int answMode;
-	cout << "Режим работы (0 - vector, 1 - map): ";
+	cout << "Режим рабоаааты (0 - vector, 1 - map): ";
 	cin >> answMode;
 	if (answMode > 1) cout << "Нет такого режима работы!" << endl;
 	fs.setWorkMode(answMode);
