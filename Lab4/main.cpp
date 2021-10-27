@@ -16,7 +16,7 @@ int main() {
 	fs.setWorkMode(answMode);
 
 	string ifName = "input.txt";
-	cout << "¬ведите названи€ файла ввода: ";
+	cout << "¬ведите названи€ файла вывода : ";
 	//cin >> ifName;
 	try {
 		fs.readDataFromFile(ifName);
